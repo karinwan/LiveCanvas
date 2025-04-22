@@ -1,0 +1,114 @@
+{
+  "language": {
+    "en": "English",
+    "fr": "French"
+  },
+  "websiteInfo": {
+    "websiteName": "LiveCanvas",
+    "message": "Welcome to LiveCanvas!",
+    "collaborationInfo": "Collaborated, Motivated, and Inspired",
+    "signUpInfo": "No need to sign up, feel free to use it"
+  },
+  "tools": {
+    "toolName1": "Create Draw Board",
+    "toolName2": "Create Flow Chart"
+  },
+  "linkEntry": {
+    "linkText": "Or enter the room you have",
+    "buttonText": "Join Room",
+    "placeholder": "Enter Room ID"
+  },
+  "uiElements": {
+    "enterUsername": "Enter Username",
+    "enterButtonText": "Enter",
+    "usernamePlaceholder": "Username",
+    "usernameRequired": "Username is required",
+    "okButton": "OK",
+    "cancelButton": "Cancel",
+    "clearButton": "Clear"
+  },
+  "sidebar": {
+    "home": "Homepage",
+    "open": "Open",
+    "export": "Export",
+    "help": "Help",
+    "mode": "Mode",
+    "language": "Language"
+  },
+  "export": {
+    "link": "Share the link",
+    "copy": "Copy Link",
+    "roomId": "Share the room ID",
+    "copyId": "Copy room ID",
+    "toJson": "Export to JSON",
+    "toImage": "Export to Image(.png)",
+    "toPdf": "Export to PDF"
+  },
+  "online": {
+    "member": "Online Member"
+  },
+  "drawingBoard": {
+    "welcomeTitle": "Welcome",
+    "welcomeMessage": "Welcome to the room, please type in your name to join the room",
+    "nameLabel": "Your name",
+    "joinButton": "Join",
+    "usersInRoom": "Users in room",
+    "share": "share",
+    "confirmClearTitle": "Clear Board",
+    "confirmClear": "Are you sure you want to clear the entire board? This action cannot be undone."
+  },
+  "roomStatus": {
+    "roomFull": "Room is Full",
+    "tryAnotherRoom": "Please try joining another room or create a new one.",
+    "roomAtCapacityMessage": "Room '{roomId}' is at capacity ({capacity} users).",
+    "generalError": "This room is currently full. Please try again later."
+  },
+  "drawBoardHelp": {
+    "manualTitle": "Drawboard Manual",
+    "drawingTitle": "Drawing",
+    "drawingInstruction": "Left click/Single-finger-touch",
+    "movingTitle": "Moving",
+    "movingInstruction": "Right click/Two-finger-touch",
+    "zoomingTitle": "Zooming",
+    "zoomingInstruction": "Scroll wheel/Pinch",
+    "close": "close"
+  },
+  "flowChartHelp": {
+    "manualTitle": "FlowChart Manual",
+    "drawingTitle": "Editing Text of Node/Edge",
+    "drawingInstruction": "Double Left click/Double Single-finger-touch",
+    "movingTitle": "Moving",
+    "movingInstruction": "Left click/Single-finger-touch",
+    "zoomingTitle": "Zooming",
+    "zoomingInstruction": "Scroll wheel/Pinch",
+    "close": "close"
+  },
+  "flowChart": {
+    "addNode": "Add Node",
+    "importTemplates": "Import Templates",
+    "template": "Template",
+    "selectTemplate": "Select Template",
+    "templates": {
+      "simpleProcess": "Simple Process Flowchart",
+      "kanban": "Kanban Board",
+      "mindMap": "Mind Map",
+      "decisionFlowchart": "Decision Flowchart"
+    }
+  },
+  "toolBar": {
+    "lockBoard": "Lock Board",
+    "unlockBoard": "Unlock Board",
+    "clearBoard": "Clear Board",
+    "pencil": "Pencil",
+    "arrow": "Arrow",
+    "rectangle": "Rectangle",
+    "panCanvas": "Pan Canvas",
+    "eraser": "Eraser",
+    "text": "Text",
+    "select": "Select"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel"
+  }
+}

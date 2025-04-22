@@ -1,0 +1,114 @@
+{
+  "language": {
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "websiteInfo": {
+    "websiteName": "LiveCanvas",
+    "message": "Bienvenue sur LiveCanvas!",
+    "collaborationInfo": "Collaboré, Motivé et Inspiré",
+    "signUpInfo": "Pas besoin de s'inscrire, n'hésitez pas à l'utiliser"
+  },
+  "tools": {
+    "toolName1": "Créer un Tableau de Dessin",
+    "toolName2": "Créer un Organigramme"
+  },
+  "linkEntry": {
+    "linkText": "Ou entrez dans la pièce que vous avez",
+    "buttonText": "Salle de réunion",
+    "placeholder": "Entrez l'ID de la salle"
+  },
+  "uiElements": {
+    "enterUsername": "Entrez le nom d'utilisateur",
+    "enterButtonText": "Entrer",
+    "usernamePlaceholder": "Nom d'utilisateur",
+    "usernameRequired": "Le nom d'utilisateur est requis",
+    "okButton": "OK",
+    "cancelButton": "Annuler",
+    "clearButton": "Effacer"
+  },
+  "sidebar": {
+    "home": "Page d'accueil",
+    "open": "Ouvrir",
+    "export": "Exporter",
+    "help": "Aide",
+    "mode": "Mode",
+    "language": "Langue"
+  },
+  "export": {
+    "link": "Partager le lien",
+    "copy": "Copier le lien",
+    "roomId": "Partager l'identifiant de la salle",
+    "copyId": "Copier l'identifiant de la salle",
+    "toJson": "Exporter en JSON",
+    "toImage": "Exporter en image (.png)",
+    "toPdf": "Exporter en PDF"
+  },
+  "online": {
+    "member": "Membre en ligne"
+  },
+  "drawingBoard": {
+    "welcomeTitle": "Bienvenue",
+    "welcomeMessage": "Bienvenue dans la salle, veuillez saisir votre nom pour rejoindre la salle",
+    "nameLabel": "Votre nom",
+    "joinButton": "Rejoindre",
+    "usersInRoom": "Utilisateurs dans la salle",
+    "share": "partager",
+    "confirmClearTitle": "Effacer le tableau",
+    "confirmClear": "Êtes-vous sûr de vouloir effacer tout le tableau ? Cette action ne peut pas être annulée."
+  },
+  "roomStatus": {
+    "roomFull": "La salle est pleine",
+    "tryAnotherRoom": "Veuillez essayer de rejoindre une autre salle ou d'en créer une nouvelle.",
+    "roomAtCapacityMessage": "La salle '{roomId}' est à capacité maximale ({capacity} utilisateurs).",
+    "generalError": "Cette salle est actuellement pleine. Veuillez réessayer plus tard."
+  },
+  "drawBoardHelp": {
+    "manualTitle": "Manuel du Drawboard",
+    "drawingTitle": "Dessin",
+    "drawingInstruction": "Clic gauche / toucher avec un doigt",
+    "movingTitle": "Déplacement",
+    "movingInstruction": "Clic droit / toucher avec deux doigts",
+    "zoomingTitle": "Zoom",
+    "zoomingInstruction": "Molette de défilement / pincement",
+    "close": "fermer"
+  },
+  "flowChartHelp": {
+    "manualTitle": "Manuel du FlowChart",
+    "drawingTitle": "Édition du texte du nœud/arc",
+    "drawingInstruction": "Double-clic gauche / Double toucher à un doigt",
+    "movingTitle": "Déplacement",
+    "movingInstruction": "Clic gauche / toucher à un doigt",
+    "zoomingTitle": "Zoom",
+    "zoomingInstruction": "Molette de défilement / pincement",
+    "close": "Fermer"
+  },
+  "flowChart": {
+    "addNode": "Ajouter un nœud",
+    "importTemplates": "Importer des modèles",
+    "template": "Modèle",
+    "selectTemplate": "Sélectionner un modèle",
+    "templates": {
+      "simpleProcess": "Organigramme de processus simple",
+      "kanban": "Tableau Kanban",
+      "mindMap": "Carte Mentale",
+      "decisionFlowchart": "Organigramme de décision"
+    }
+  },
+  "toolBar": {
+    "lockBoard": "Verrouiller le tableau",
+    "unlockBoard": "Déverrouiller le tableau",
+    "clearBoard": "Effacer le tableau",
+    "pencil": "Crayon",
+    "arrow": "Flèche",
+    "rectangle": "Rectangle",
+    "panCanvas": "Déplacer le canevas",
+    "eraser": "Gomme",
+    "text": "Texte",
+    "select": "Sélectionner"
+  },
+  "common": {
+    "close": "Fermer",
+    "cancel": "Annuler"
+  }
+}

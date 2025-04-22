@@ -1,6 +1,4 @@
-# ECE651-GROUP7
-
-
+# LiveCanvas
 
 ## About
 
@@ -44,17 +42,13 @@ Ensure you have the following installed on your machine:
 - [Python](https://www.python.org/) (for the Flask backend)
 
 ### **Installation and Setup**
-#### **1️⃣ Clone the Repository**
-```sh
-git clone https://git.uwaterloo.ca/q22wan/ece651-group7.git
-cd ece651-group7
-```
-#### **2️⃣  Install Frontend Dependencies**
+
+#### **1️⃣  Install Frontend Dependencies**
 ```sh
 cd frontend
 npm install
 ```
-#### **3️⃣   Run the Development Server**
+#### **2️⃣   Run the Development Server**
 ```sh
 npm run dev
 ```
@@ -89,10 +83,15 @@ After successfully setting up the project, here’s what you should see when eve
 
 Unit Test:
 
-in frontend repo, cd tests, run npm run test
-in backend repo cd tests run pytest
+In frontend folder, 
+```sh
+cd tests, run npm run test
+```
+In backend folder,
+```sh
+cd tests run pytest
+```
 
-Use the built-in continuous integration in GitLab.
 
 ### Testing
 
@@ -105,8 +104,7 @@ We use **pytest** for backend testing and **Vitest** for frontend testing to ens
   ```sh
   cd backend
   python -m pytest
-    ```
-- **Configured in CI/CD:** Tests are executed automatically as part of the test stage in .gitlab-ci.yml.
+  ```
 
 #### Frontend Testing (Vue.js)
 - **Tool:** [`Vitest`](https://vitest.dev/)
@@ -116,7 +114,6 @@ We use **pytest** for backend testing and **Vitest** for frontend testing to ens
   cd frontend
   npm run test
   ```
-- **Configured in CI/CD:** The pipeline includes frontend testing to prevent issues before deployment.
 
 ### Selenium Auto test
 - Run command, the chromedriver will automatically run our test plan:
@@ -145,19 +142,3 @@ To maintain code quality and consistency, we use **linting tools** for both the 
   ```sh
   cd frontend
   npm run lint
-
-### Deployment
-
-#### Frontend Deployment
-To deploy the frontend, follow these steps:
-1. **Build the Project**
-  ```sh
-  cd frontend
-  npm run build
-  ```
-2. **Deploy to Static Web Apps**
-  ```sh
-  swa deploy ./dist --env production --deployment-token <token>
-  ```
-## Team Member ##
-Qianqian Wan, Jinling Li, Zhuoying Li, Shinong Mao, Yuhong Nie, Leona Liang
